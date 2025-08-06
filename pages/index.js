@@ -1,3 +1,5 @@
+'use client'; // 👈 Important line for Client Component
+
 import { useState } from 'react';
 
 export default function Home() {
@@ -41,4 +43,4 @@ export default function Home() {
       </div>
     </div>
   );
-                
+}
